@@ -3,10 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Basic Webpage</title>
+    <title>Country Info Search</title>
+    <link rel="stylesheet" href="style.css"/></head>
+
 </head>
 <body>
+  <header>
+    <h1>🌍 Country Info Finder</h1>
+  </header>
 
-  
+  <main>
+    <div class="search-box">
+      
+      <input type="text" id="countryInput" placeholder="Enter country name"/>
+      <button onclick="searchCountry()">Search</button>
+    </div>
+    <div id="result"></div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Country Info App | Powered by REST Countries API</p>
+  </footer>
+    
+  <script src="script.js"></script>
+
+    
 </body>
 </html>
